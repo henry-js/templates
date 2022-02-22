@@ -20,17 +20,19 @@ schemas:
     - design
     - qa
 - id: best
-  desc: | 
-    Best practicess
+  desc: > 
+    Best practices
 - id: config
-  desc: "How to configure the package"
+  desc: >
+    How to configure the package
 - id: advanced
   pattern: adv
-  desc: "Advanced topics"
+  desc: >
+    Advanced topics
 - id: lifecycle
 - id: changelog
 - id: qa
-  desc: |
+  desc: >
     How to run debugger and tests
   children:
     - debug
@@ -38,10 +40,10 @@ schemas:
     - performance
 - id: performance
   pattern: perf
-  desc: |
+  desc: >
     Profile performance
 - id: ops
-  desc: |
+  desc: >
     Diagnose issues
   children:
     - logs
@@ -70,9 +72,9 @@ schemas:
     Explanations of architectural decisions made
 - id: design
   desc: >
-    design process 
+    Design process 
 - id: dev
-  desc: |
+  desc: >
     Development related 
   children:
     - cook
@@ -87,10 +89,13 @@ schemas:
 - id: faq
 - id: topic
   pattern: t
-  desc: important areas of a project
+  desc: >
+    Important areas of a project
   namespace: true
 - id: cook
 - id: debug
-  desc: how to debug an application
+  desc: >
+    How to debug an application
 - id: test
-  desc: how to test an application
+  desc: >
+    How to test an application
